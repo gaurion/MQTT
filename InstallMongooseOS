@@ -1,0 +1,14 @@
+#add mongoose to Pesonal Package Archive(ppa)
+sudo add-apt-repository ppa:mongoose-os/mos
+
+#To install all the necesary packages for the mos
+sudo apt-get update
+
+#Installation
+sudo apt-get install mos
+
+#lists all the possible options available to use
+mos --help
+
+#Launches MongooseOS on the web browser
+mos
