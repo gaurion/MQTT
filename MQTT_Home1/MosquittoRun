@@ -1,0 +1,24 @@
+******Use Terminal for all the given commands*******************
+
+------To start Mosquitto Broker-----------
+#[port no = 1885]
+mosquitto -p 1885
+
+
+------------------------To subscribe to a topic---------
+mosquitto_sub -v -u 'gaurav' -P 'Asimov' -t outTopic -p 1885 
+
+
+
+------------------------To Publish to a topic-----------
+mosquitto_pub -t 'inTopic' -u 'gaurav' -P 'Asimov' -m 'helloworld' -p 1885
+
+
+------------------------To subscribe to all the messages belonging to esp1-------------------
+mosquitto_sub -v -u 'gaurav' -P 'Asimov' -t esp1/# -p 1885
+
+------------------------To check who is listening to the port-----------------------
+sudo netstat -plnt | fgrep 1885
+
+------------------------To kill all existing running mosquitto processes-----------------------
+killall mosquitto
