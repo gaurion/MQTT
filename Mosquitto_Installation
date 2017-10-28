@@ -1,0 +1,43 @@
+Reference : https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-ubuntu-16-04
+
+---------------Installation-----------------------
+
+>>Command to install Mosquitto on Ubuntu
+sudo apt-get install mosquitto
+
+>>Command to enable pub and sub options on Ubuntu
+sudo apt-get install mosquitto-clients
+
+------------After Instalation--------------------
+To check and verify mosquitto:
+
+>>Subscriber
+mosquitto_sub -h localhost -t test
+
+>>Publisher
+mosquitto_pub -h localhost -t test -m "hello world"
+
+---------------MQTT Passwords-------------------------
+>>This command will prompt you to enter a password for the specified username, and place the results in /etc/mosquitto/passwd
+sudo mosquitto_passwd -c /etc/mosquitto/passwd sammy
+
+>>Now we'll open up a new configuration file for Mosquitto and tell it to use this password file to require logins for all connections:
+sudo nano /etc/mosquitto/conf.d/default.conf
+
+#Add the following lines of code
+allow_anonymous false
+password_file /etc/mosquitto/passwd
+
+>>Save and exit the file
+
+------------------Restart Mosquitto-----------------------
+sudo systemctl restart mosquitto
+
+
+------------------Mosquitto with Security--------------------
+
+>>Subscriber
+mosquitto_sub -h localhost -t test -u "sammy" -P "password"
+
+>>Publisher
+mosquitto_pub -h localhost -t "test" -m "hello world" -u "sammy" -P "password"
