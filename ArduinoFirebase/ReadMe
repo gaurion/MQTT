@@ -1,0 +1,3 @@
+Interface the firebase console with the esp8266 module using arduino IDE.
+
+Consists of library files to use standard commands to link the Firebase Console to the ESP module.
