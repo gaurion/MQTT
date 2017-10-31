@@ -1,0 +1,15 @@
+Start Arduino
+Open File > Examples > FirebaseArduino > FirebaseRoom_ESP8266
+In FirebaseRoom_ESP8266: Replace WIFI_SSID and WIFI_PASSWORD with WiFi credentials
+Go to https://firebase.google.com/console/ and create a new Firebase Project
+Go to Database
+Copy the Database hostname (Database URL without https:// and trailing /)
+In FirebaseRoom_ESP8266: replace FIREBASE_HOST with the Database Hostname
+Go to ⚙ > Project Settings > Database > Database secrets
+Click Firebase Secrets > Show
+Copy the Database Secret
+In FirebaseRoom_ESP8266: Replace FIREBASE_AUTH with Database Secret
+Select the board Board > ESP8266 Modules > NodeMCU 1.0
+Select the serial port Port > /dev/tty...
+Select the upload speed Upload Speed > 115200
+Click Sketch > Upload
