@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/9cb8c24ad983b5d59c728ba2d81ee1c6e995c1de/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d8e84c9e60480f8f48150a4c222865842d8c33e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/6b056f052c42d776b88a618a06d4cd151fb35270/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ab4dda0955affdd6548f0dfdd910609033ba13d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6060c27066e6863d95feebab5a49aa869f94a2fe">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_87440ca8aedda5894b4ac6668685d1c155d23f42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/98cce5bfc814dfc56c1dbf8d7a5138ca566ae8dd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b92b9ec996f84be4ec0339277cdd6d015c7104f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/39f31666f95fe6e8d9f44f2de687eb71f7f978c6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c33e80c41646e3b08390ca5f599168c57e5e38f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6ed9310da9763830488dad0e0d4583a8666b3e8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/da9d888ec0f4636861915c866f9e59ef29375fa9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c210e2967a2b519be9bfdc951002be45f84ae4ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/f8fb2e1998576304796a278fd10cf69d355dcf11/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b22a530f308de119d8f49be371c33eab1f0c5dd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/1076fc9eeeb7c6ec3a31841177515df75ebae819/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cde12688cc0685be9866be77b822d9fa961a1bbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/eba2165c0c87fde581fd105e0e96264818110def/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_281abc288261240deb603173869ec57343cec57a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bumblebee/.android/build-cache/dd55423cd6ece151e000821c533083093e56a7d0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/home/bumblebee/Softwares/AndroidStudioProjects/ToDoAppFirebase/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4992a452027688b5d993fb4def8521d8b461b8f/classes.dex" />
+    </item>
+
+</items>
